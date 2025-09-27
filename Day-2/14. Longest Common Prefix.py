@@ -25,5 +25,3 @@ class Solution:
                 return lcp
 
         return lcp
-
-print(Solution().longestCommonPrefix(["ab","a","aflight"]))
