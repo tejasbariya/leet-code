@@ -4,4 +4,4 @@ class Solution:
         r = 0        
         for n in nums:
             r ^= n
-        return n
+        return r
