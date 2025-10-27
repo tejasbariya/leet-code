@@ -9,7 +9,7 @@ class Solution(object):
         l = len(nums1)
         mid = l // 2
         if l % 2 == 0:
-            return  (nums1[mid] + nums1[mid - 1]) / 2
+            return  (nums1[mid] + nums1[mid - 1]) / 2.0
         else :
             return nums1[mid]
         
