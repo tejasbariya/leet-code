@@ -29,12 +29,3 @@ class Solution(object):
                 if not right: peri += 1
                 print(f"land: {land} i:{i}, j:{j}, peri:{peri}")
         return peri
-
-grid =[
-    [0, 1, 0, 0],
-    [1, 1, 1, 0],
-    [0, 1, 0, 0],
-    [1, 1, 0, 0],
-]
-s = Solution().islandPerimeter(grid)
-print(s)
